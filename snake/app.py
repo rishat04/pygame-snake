@@ -82,7 +82,7 @@ scores = font.render('Scores', True, black)
 sc_rect = scores.get_rect()
 sc_rect.x = (width - scores.get_width()) // 2  
   
-menu = [playgame, settings, scores]
+menu = [playgame, settings, scores ]
 menu_rect = [p_rect, s_rect, sc_rect]
 for i in range(3):
     menu_rect[i].y = 80 + i * 50
